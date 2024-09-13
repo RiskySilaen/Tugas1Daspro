@@ -1,1 +1,34 @@
 
+program alamat;
+uses crt;
+var
+jalan:string;
+no:string;
+kota:string;
+kodepos:string;
+
+begin
+clrscr;
+write('jalan:');
+readln(jalan);
+write('No:');
+readln(no);
+write('Kota:');
+readln(kota);
+write('Kode Pos:');
+readln(kodepos);
+
+write('Alamat: jalan ');
+write(jalan);
+write(' No. ');
+write(no);
+write(' ');
+write(kota);
+write(' ');
+write(kodepos);
+
+
+
+
+    
+end.
