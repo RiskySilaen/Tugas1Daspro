@@ -1,1 +1,31 @@
 
+program datadiri;
+uses crt;
+var
+nama, nim, kom, alamat: string;
+
+begin
+clrscr;
+write('Masukan Nama Anda: ');
+readln(nama);
+write('Masukan Nim Anda: ');
+readln(nim);
+write('Masukan Kom Anda: ');
+readln(Kom);
+write('Masukan Alamat Anda:');
+readln(alamat);
+
+write('Hallo,Nama saya ');
+write(nama);
+write(', NIM saya ');
+write(nim);
+write(', saya di kom ');
+write(kom);
+write(', alamat saya di ');
+write(alamat);
+Write('. Salam Kenal Semua!');
+
+
+
+    
+end.
