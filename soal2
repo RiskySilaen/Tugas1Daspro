@@ -1,0 +1,20 @@
+program latihan;
+uses crt;
+
+begin
+clrscr;
+writeln('januari');
+writeln('februari');
+writeln('maret');
+writeln('april');
+writeln('mei');
+writeln('juni');
+writeln('juli');
+writeln('agustus');
+writeln('september');
+writeln('oktober');
+writeln('november');
+writeln('desember');
+
+    
+end.
